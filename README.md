@@ -1,4 +1,4 @@
-﻿# E-Commerce Sales & Customer Analysis (SQL + Tableau)
+# E-Commerce Sales & Customer Analysis (SQL + Tableau)
 
 *Work in progress.* An analysis of about 100,000 orders from Olist, a Brazilian online marketplace (2016â€“2018), answering 12 business questions on sales, repeat customers, delivery and payments with PostgreSQL, and presenting the results in a Tableau Public dashboard.
 
@@ -6,7 +6,7 @@
 
 - [x] Project structure and setup scripts
 - [x] Data loaded and checked
-- [ ] Cleaning
+- [x] Cleaning (rules in `data_cleaning.md`, views in `sql/02_cleaning/`)
 - [ ] Analysis queries
 - [ ] Dashboard
 - [ ] Findings and recommendations

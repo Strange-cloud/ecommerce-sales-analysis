@@ -21,7 +21,7 @@ Every rule below comes from the profiling check in `sql/02_cleaning/01_data_prof
 | 7 | Delivery date on an order that is not "delivered" | 6 | Excluded by rule 3 | Status is the source of truth for a sale |
 | 8 | Handed to carrier before the purchase time | 166 | Excluded from "days to ship" only | Impossible timestamps would skew shipping speed |
 | 9 | Orders with more than one review; reused review ids | 547 orders; 789 ids | Keep **one review per order, the most recent** | One customer opinion per order; reused ids are copies |
-| 10 | Products with no category | 610 products | Category = "unknown" | Keeps their sales in the totals |
-| 11 | Categories with no English name | 2 categories | `pc_gamer` → "pc_gamer"; `portateis_cozinha_e_preparadores_de_alimentos` → "portable_kitchen_appliances" | Translated by hand |
+| 10 | Products with no category | 610 products (1,535 items in clean orders) | Category = "unknown" | Keeps their sales in the totals |
+| 11 | Categories with no English name | 2 categories (8 + 14 items in clean orders) | `pc_gamer` → "pc_gamer"; `portateis_cozinha_e_preparadores_de_alimentos` → "portable_kitchen_appliances" | Translated by hand |
 | 12 | "not_defined" payment type; payments of 0 | 3; 9 | Leave "not_defined" out of payment-mix results | Too few to matter; no meaning to report |
 | 13 | About 50 location points per zip prefix | 1,000,163 rows for 19,015 prefixes | Map by **state**; geolocation table not used | State is enough for a sales map and Tableau maps Brazilian states on its own |
