@@ -1,11 +1,11 @@
-# E-Commerce Sales & Customer Analysis (SQL + Tableau)
+﻿# E-Commerce Sales & Customer Analysis (SQL + Tableau)
 
-*Work in progress.* An analysis of about 100,000 orders from Olist, a Brazilian online marketplace (2016–2018), answering 12 business questions on sales, repeat customers, delivery and payments with PostgreSQL, and presenting the results in a Tableau Public dashboard.
+*Work in progress.* An analysis of about 100,000 orders from Olist, a Brazilian online marketplace (2016â€“2018), answering 12 business questions on sales, repeat customers, delivery and payments with PostgreSQL, and presenting the results in a Tableau Public dashboard.
 
 ## Status
 
 - [x] Project structure and setup scripts
-- [ ] Data loaded and checked
+- [x] Data loaded and checked
 - [ ] Cleaning
 - [ ] Analysis queries
 - [ ] Dashboard
@@ -28,5 +28,20 @@
 3. Run `python scripts/load_data.py`.
 
 ## Data
+
+Loaded into PostgreSQL 18; every table's row count matches its CSV, and all foreign keys hold.
+
+| Table | Rows |
+| --- | ---: |
+| geolocation | 1,000,163 |
+| order_items | 112,650 |
+| order_payments | 103,886 |
+| customers | 99,441 |
+| orders | 99,441 |
+| order_reviews | 99,224 |
+| products | 32,951 |
+| sellers | 3,095 |
+| category_translation | 71 |
+
 
 [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), licensed CC BY-NC-SA 4.0. Thanks to Olist for releasing it.
