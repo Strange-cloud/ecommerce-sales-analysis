@@ -8,6 +8,7 @@
 - [x] Data loaded and checked
 - [x] Cleaning (rules in `data_cleaning.md`, views in `sql/02_cleaning/`)
 - [x] Analysis queries (12 questions in `sql/03_analysis/`, findings in each file)
+- [x] Exports for Tableau (`exports/`, made by `scripts/export_for_tableau.py`; totals checked against the SQL)
 - [ ] Dashboard
 - [ ] Findings and recommendations
 
