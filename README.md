@@ -7,7 +7,7 @@
 - [x] Project structure and setup scripts
 - [x] Data loaded and checked
 - [x] Cleaning (rules in `data_cleaning.md`, views in `sql/02_cleaning/`)
-- [ ] Analysis queries (sales, customers, delivery done: 8 of 12)
+- [ ] Analysis queries (sales, customers, delivery, sellers done: 10 of 12)
 - [ ] Dashboard
 - [ ] Findings and recommendations
 
