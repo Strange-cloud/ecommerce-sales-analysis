@@ -1,0 +1,6 @@
+# Raw Kaggle download (about 135 MB). Get it from Kaggle; see README.
+data/raw/
+
+__pycache__/
+.venv/
+*.twbx.bak
