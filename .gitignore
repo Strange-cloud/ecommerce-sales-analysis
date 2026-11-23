@@ -4,3 +4,6 @@ data/raw/
 __pycache__/
 .venv/
 *.twbx.bak
+
+# Tableau extracts (rebuilt from exports/)
+Tableau/*.hyper
