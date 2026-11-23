@@ -7,3 +7,4 @@ __pycache__/
 
 # Tableau extracts (rebuilt from exports/)
 Tableau/*.hyper
+Tableau/~*.twbr
