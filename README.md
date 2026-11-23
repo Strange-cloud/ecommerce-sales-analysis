@@ -6,7 +6,7 @@ An analysis of about 96,000 delivered orders from Olist, a Brazilian online mark
 
 **Tools:** PostgreSQL 18 (CTEs, window functions, cohort and RFM analysis) · Python (pandas, psycopg2) · Tableau
 
-## The short version
+## Executive Summary
 
 Olist more than doubled its revenue, but almost all of that growth came from **new** customers. Only 3% of customers ever order a second time, and late deliveries are the single biggest cause of bad reviews. The biggest opportunities are winning back past big spenders and fixing delivery in a few problem regions.
 
